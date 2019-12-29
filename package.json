@@ -1,0 +1,11 @@
+{
+  "name": "logg",
+  "version": "0.0.1-jENK",
+  "description": "Quick, dirty logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GettenGud",
+  "license": "Unlicense"
+}
