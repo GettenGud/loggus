@@ -1,4 +1,4 @@
-# logg
+# loggus
 
 > This software is heavily under development! Use it at your own risk!
 
