@@ -12,20 +12,20 @@ module.exports = function(options){
 }
 
 
-exports.Log = (level, msg) =>
+module.exports.log = (level, msg) =>
 {
     callHandlers(level, msg)
 }
 
-exports.LogError = (msg) => {
+module.exports.logError = (msg) => {
     callHandlers("error", msg)
 }
 
-exports.LogWarning = (msg) => {
+module.exports.logWarning = (msg) => {
     callHandlers("warning", msg)
 }
 
-exports.LogReporting = (msg) => {
+exports.logReporting = (msg) => {
     callHandlers("reporting", msg)
 }
 
